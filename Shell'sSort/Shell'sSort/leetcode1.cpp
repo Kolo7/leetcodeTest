@@ -12,7 +12,7 @@ struct Point {
 template<class T>
 std::string convertToString(const T val)
 {
-    string s;
+    std::string s;
     std::strstream ss;
     ss << val;
     ss >> s;
